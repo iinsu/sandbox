@@ -9,8 +9,9 @@ export default function Home() {
           <Link href={"/worker/join"}>회원가입</Link>
         </div>
         <div>
-          <Link href={"/worker/join"}>로그인</Link>
+          <Link href={"/login"}>로그인</Link>
         </div>
+        <Link href={"/mypage/worker/info"}>마이페이지</Link>
       </div>
     </>
   );
