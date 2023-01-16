@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const handleSignup = async (data: string) => {
   const response = await fetch(`/api/hello`, {
     method: "POST",
@@ -26,6 +28,7 @@ export default function Home() {
           <input type="text" />
           <button>입력</button>
         </form>
+        <Link href={"/board"}>보드</Link>
       </div>
     </>
   );
