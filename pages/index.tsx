@@ -28,8 +28,11 @@ export default function Home() {
           <input type="text" />
           <button>입력</button>
         </form>
-        <Link href={"/board"}>보드</Link>
-        <Link href={"/board/list"}>Recoil 보드</Link>
+        <div style={{ display: "grid" }}>
+          <Link href={"/board"}>보드</Link>
+          <Link href={"/board/list"}>Recoil 보드</Link>
+          <Link href={"/board/todo"}>Recoil ToDoList</Link>
+        </div>
       </div>
     </>
   );
