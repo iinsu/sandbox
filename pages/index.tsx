@@ -30,7 +30,7 @@ export default function Home() {
         </form>
         <div style={{ display: "grid" }}>
           <Link href={"/board"}>보드</Link>
-          <Link href={"/board/list"}>Recoil 보드</Link>
+          <Link href={"/board/list"}>Recoil 온도변환기</Link>
           <Link href={"/board/todo"}>Recoil ToDoList</Link>
         </div>
       </div>
