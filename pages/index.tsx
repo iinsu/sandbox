@@ -29,8 +29,8 @@ export default function Home() {
           <button>입력</button>
         </form>
         <div style={{ display: "grid" }}>
-          <Link href={"/board"}>보드</Link>
-          <Link href={"/board/list"}>Recoil 온도변환기</Link>
+          <Link href={"/board"}>ToDoList</Link>
+          <Link href={"/board/temperature"}>Recoil 온도변환기</Link>
           <Link href={"/board/todo"}>Recoil ToDoList</Link>
         </div>
       </div>
